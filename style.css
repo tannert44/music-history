@@ -1,7 +1,6 @@
 .main-wrapper {
   width: 57%;
   overflow: hidden;
-  margin: 0 auto;
   font-family: Arial, serif;
 }
 
@@ -75,4 +74,15 @@ input[type="submit"] {
   border: solid black;
   border-radius: 10%;
   margin: 10%;
+}
+
+.table-div {
+  border: solid black;
+  font-size: .75em;
+}
+
+@media (min-width: 1250px) {
+  .main-wrapper {
+    margin: 0 auto;
+  }
 }
