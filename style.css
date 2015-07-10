@@ -1,0 +1,75 @@
+.main-wrapper {
+  width: 85%;
+  overflow: hidden;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  border: solid black;
+  margin: auto;
+  background-color: #FFB4B0;
+}
+
+.song-filter-wrapper {
+  width: 100%;
+  margin-top: .75em;
+  display: flex;
+}
+
+.filter-wrapper {
+  width: 25%;
+  border: solid black;
+  background-color: #4DD7FA;
+  display: inline-block;
+  padding: 1em;
+}
+
+.song-info-wrapper {
+  width: 75%;
+  border: solid black;
+  background-color: #FEFAC0;
+  display: inline-block;
+  margin-left: .75em;
+}
+
+.navbar-wrapper ul li{
+  display: inline;
+}
+
+.navbar-wrapper ul li:first-child a:first-child {
+  color: black;
+  text-decoration: none;
+}
+
+input {
+  max-width: 90%;
+}
+
+p {
+  display: inline;
+  margin: 25px auto 30px;
+}
+
+h2 {
+  color: #785616;
+  margin: 25px auto 30px 20px;
+}
+
+
+select {
+  width: 80%;
+  border: solid black;
+  margin: 10%
+}
+
+h2 + p {
+  margin-left: 1em;
+}
+
+input[type="submit"] {
+  width: 80%;
+  text-align: center;
+  border: solid black;
+  border-radius: 10%;
+  margin: 10%;
+}
