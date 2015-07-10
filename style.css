@@ -1,6 +1,7 @@
 .main-wrapper {
-  width: 85%;
+  width: 50%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .navbar-wrapper {
@@ -17,7 +18,7 @@
 }
 
 .filter-wrapper {
-  width: 25%;
+  width: 20%;
   border: solid black;
   background-color: #4DD7FA;
   display: inline-block;
@@ -25,7 +26,7 @@
 }
 
 .song-info-wrapper {
-  width: 75%;
+  width: 80%;
   border: solid black;
   background-color: #FEFAC0;
   display: inline-block;
