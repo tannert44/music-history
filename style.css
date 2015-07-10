@@ -1,7 +1,8 @@
 .main-wrapper {
-  width: 55%;
+  width: 57%;
   overflow: hidden;
   margin: 0 auto;
+  font-family: Arial, serif;
 }
 
 .navbar-wrapper {
@@ -46,14 +47,15 @@ input {
   max-width: 90%;
 }
 
-p {
+.song-info {
   display: inline;
   margin: 25px auto 30px;
 }
 
-h2 {
+.song-name {
   color: #785616;
   margin: 25px auto 30px 20px;
+  font-size: 1.5em;
 }
 
 
@@ -63,7 +65,7 @@ select {
   margin: 10%
 }
 
-h2 + p {
+.song-name + .song-info {
   margin-left: 1em;
 }
 
