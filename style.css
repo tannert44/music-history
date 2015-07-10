@@ -76,9 +76,13 @@ input[type="submit"] {
   margin: 10%;
 }
 
-.table-div {
-  border: solid black;
-  font-size: .75em;
+
+.left-checkboxes {
+  float: left;
+}
+
+.right-checkboxes {
+  float: right;
 }
 
 @media (min-width: 1250px) {
