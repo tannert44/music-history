@@ -46,6 +46,7 @@
 input[type="range"] {
   max-width: 80%;
   margin: 10%;
+  border: solid black;
 }
 
 .song-info {
