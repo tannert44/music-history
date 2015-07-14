@@ -26,7 +26,7 @@
   padding: 1em;
 }
 
-.song-info-wrapper {
+#song-info-wrapper {
   width: 80%;
   border: solid black;
   background-color: #FEFAC0;
@@ -49,26 +49,18 @@ input[type="range"] {
   border: solid black;
 }
 
-.song-info {
-  display: inline;
-  margin: 25px auto 30px;
-}
-
-.song-name {
-  color: #785616;
-  margin: 25px auto 30px 20px;
-  font-size: 1.5em;
-}
-
-
 select {
   width: 90%;
   border: solid black;
   margin: 10%
 }
 
-.song-name + .song-info {
+.song-info {
+  display: block;
+  font-size: 1.75em;
   margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 input[type="submit"] {
@@ -90,3 +82,4 @@ input[type="submit"] {
 .right-checkboxes {
   float: right;
 }
+

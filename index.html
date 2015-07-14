@@ -54,11 +54,11 @@
         <br>
         <div class="left-checkboxes">
           <input type="checkbox" name="rock">
-          <label>Rock</label><br>
+          <label for="rock">Rock</label><br>
           <input type="checkbox" name="pop">
-          <label>Pop</label><br>
+          <label for="pop">Pop</label><br>
           <input type="checkbox" name="blues">
-          <label>Blues</label><br>
+          <label for="pop">Blues</label><br>
         </div>
         <div class="right-checkboxes">
           <input type="checkbox" name="classical">
@@ -70,7 +70,8 @@
         </div>
         <input type="submit" value="Filter">
       </div>
-      <div class="song-info-wrapper">
+      <div id="song-info-wrapper">
+<!--
         <p class="song-name">Song Name</p>
         <p class="song-info">Artist Name</p>
         <p class="song-info clear-pipe">|</p>
@@ -89,14 +90,18 @@
         <p class="song-info">Album Name</p>
         <p class="song-info clear-pipe">|</p>
         <p class="song-info">Genre</p>
-        <p class="song-name">Song Name</p>
-        <p class="song-info">Artist Name</p>
-        <p class="song-info clear-pipe">|</p>
-        <p class="song-info">Album Name</p>
-        <p class="song-info clear-pipe">|</p>
-        <p class="song-info">Genre</p>
+        <div class="last-song-info">
+          <p class="song-name">Song Name</p>
+          <p class="song-info">Artist Name</p>
+          <p class="song-info clear-pipe">|</p>
+          <p class="song-info">Album Name</p>
+          <p class="song-info clear-pipe">|</p>
+          <p class="song-info">Genre</p>
+        <div>
       </div>
     </div>
+-->
   </div>
+  <script src="main.js"></script>
 </body>
 </html>

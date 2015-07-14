@@ -1,1 +1,55 @@
-	
+	@media only screen and  (max-width: 1471px) {
+		.main-wrapper {
+			margin: 0;
+			width: 100%;
+		}
+
+	}
+
+@media only screen and (max-width: 850px) {
+    
+    .main-wrapper {
+    	margin-left: 25%;
+    }
+
+	.song-filter-wrapper {
+		display: block;
+	}
+
+	.filter-wrapper {
+		text-align: center;
+		margin: 0 auto;
+		width: 46%;
+	}
+
+	.song-info-wrapper {
+		text-align: center;
+		width: 50%;
+		margin-top: 1em;
+	}
+
+	.navbar-wrapper {
+		text-align: center;
+		width: 50%;
+		margin: 0;
+	}
+
+	.navbar-wrapper ul li{
+  		display: block;
+  		margin-top: 1em;
+  		margin-left: -45px;
+	}
+
+	.pipe-nav {
+		display: none;
+	}
+
+	.left-checkboxes {
+		float: none;
+		display: block;
+	}
+
+	.right-checkboxes {
+  		float: none;
+	}
+}
