@@ -1,3 +1,4 @@
+<!--
 <!doctype html>
 
 <html lang="en">
@@ -12,23 +13,9 @@
     <header>
       <nav>
       <div class="navbar-wrapper">
-        <ul>
-          <li>
-            <a href="#">
-              View Music
-            </a><p class="pipe-nav">|</p>
-          </li>
-          <li>
-            <a href="#">
-              Add Music
-            </a><p class="pipe-nav">|</p>
-          </li>
-          <li>
-            <a href="#">
-              Profile
-            </a>
-          </li>
-        </ul>
+        <div><a href="#">View Music</a>|</div>
+        <div><a href="#">Add Music</a>|</div>
+        <div><a href="#">Profile</a></div>
       </div>
     </nav>
     </header>
@@ -71,7 +58,112 @@
         <input type="submit" value="Filter">
       </div>
       <div id="song-info-wrapper">
+      </div>
+     </div>
+  <script src="main.js"></script>
+  </div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  
+  <div id="main-wrapper">
+    <header>
+      <nav>
+        <div class="nav"><a href="#">View Music</a>|</div>
+        <div class="nav"><a href="#">Add Music</a>|</div>
+        <div class="nav"><a href="#">Profile</a></div>
+      </nav>
+    </header>
+
+      <div id="filter-content">
+
+          <section class="filter-section">
+            <label for="song-length">Song length:</label>
+          </section>
+
+          <section class="filter-section">
+              <input class="centered-width" type="range" name="song-length" min="1" max="50">
+          </section>
+
+          <section class="filter-section">
+            <label>Artist:</label>
+          </section>
+
+          <section class="filter-section">
+              <select class="centered-width">
+                <option>Options</option>
+              </select>
+          </section>
+
+          <section class="filter-section">
+              <label>Album:</label>
+          </section>
+
+          <section class="filter-section">
+              <select class="centered-width">
+                <option>Options</option>
+              </select>
+          </section>
+
+        <section class="filter-section">
+          <label>Genre:</label>
+        </section>
+
+        <div id="checkbox-wrapper">
+
+          <div id="left-checkbox">    
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="rock">
+              <label class="checkbox-label" for="rock">Rock</label>
+            </section>
+
+
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="pop">
+              <label class="checkbox-label" for="pop">Pop</label>
+            </section>
+
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="blues">
+              <label class="checkbox-label" for="pop">Blues</label>
+            </section>
+          </div>
+
+          <div id="right-checkbox">
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="classical">
+              <label class="checkbox-label">Classical</label>
+            </section>
+
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="Jazz">
+              <label class="checkbox-label">Jazz</label>
+            </section>
+
+            <section class="filter-checkbox-section">
+              <input type="checkbox" name="hiphop">
+              <label class="checkbox-label">Hip Hop</label>
+            </section>
+          </div>
+
+        </div>
+
+        <section class="filter-section">
+          <input class="centered-width" type="submit" value="Filter">
+        </section>
+
+      </div>
+
+      <div id="song-info-content">
+      </div>
+
   </div>
   <script src="main.js"></script>
 </body>
-</html>
