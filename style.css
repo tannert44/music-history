@@ -1,70 +1,49 @@
 #main-wrapper {
- display: flex;
- flex-flow: row wrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-  
-
-#main-wrapper > header {
- flex: 2 100%;
- background-color: #FFB4B0;
- border: 2px solid black;
- height: 53px;
- margin-bottom: 1em;
- max-width: 
+header {
+  flex: 1 100%; 
+  padding-left: 20px;
+  border: solid black;
+  background-color: #FFB4B0;
+  max-height: 53px;
+  text-align: justify;
 }
 
-#filter-content{
-  flex-grow: 3; 
-  background-color: #4DD7FA;
-  border: 2px solid black;
-  margin-right: 1em;
+#filter-content {
+   border: solid black;
+   background-color: #4DD7FA;
+   padding: 20px 0 20px 25px;;
+   text-align: justify;
+   margin-top: 16px;
 }
+
+.left-three {
+  float: left;
+}
+
+.cleared{
+   clear:both; 
+}
+
 
 #song-info-content {
-  flex-grow: 6;
+  text-align: justify;
+  border: solid black;
   background-color: #FEFAC0;
-  border: 2px solid black;
-}
-
-nav {
-  margin-top: 15px;
-  margin-left: 10px;
-  
-}
-
-.nav {
- display: inline;
-}
-
-
-#checkbox-wrapper {
- display: flex;
- margin: 1em;
- margin-left: 20%;
- flex-flow: row wrap;
-}
-
-.filter-section {
- margin: .75em; 
-}
-
-.centered-width {
- width: 60%;
- margin-left: 20%;
- margin-right: 20%;
-}
-
-#song-info-content span:nth-of-type(even){
-  background-color: coral;
-}
-
-#song-info-content span:nth-of-type(odd){
-  background-color: aqua;
+  margin-top: 16px;
+  padding: 10px;
 }
 
 .song-info {
   display: block;
-  margin: 1em;
-  font-size: 1.75em;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+#more_button {
+ margin-top: 10px; 
+ float: left;
 }
